@@ -28,14 +28,14 @@ import com.github.paolorotolo.appintro.util.LogHelper;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
-
+import com.encerge.tourbliz.commons.BaseActivity;
 import static com.github.paolorotolo.appintro.ViewPageTransformer.TransformType.DEPTH;
 import static com.github.paolorotolo.appintro.ViewPageTransformer.TransformType.FADE;
 import static com.github.paolorotolo.appintro.ViewPageTransformer.TransformType.FLOW;
 import static com.github.paolorotolo.appintro.ViewPageTransformer.TransformType.SLIDE_OVER;
 import static com.github.paolorotolo.appintro.ViewPageTransformer.TransformType.ZOOM;
 
-public abstract class AppIntroBase extends AppCompatActivity implements
+public abstract class AppIntroBase extends BaseActivity implements
         AppIntroViewPager.OnNextPageRequestedListener {
 
     public static final int DEFAULT_COLOR = 1;
